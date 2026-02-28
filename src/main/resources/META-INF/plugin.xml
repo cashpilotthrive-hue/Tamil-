@@ -9,6 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
+        <projectService serviceImplementation="com.github.cashpilotthrivehue.tamil.services.MyProjectService"/>
         <toolWindow factoryClass="com.github.cashpilotthrivehue.tamil.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
         <postStartupActivity implementation="com.github.cashpilotthrivehue.tamil.startup.MyProjectActivity" />
     </extensions>
